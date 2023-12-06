@@ -6,31 +6,48 @@
  --name:#000;
  --section4:#141414; 
 }
+body{
+    font-family: 'Inter', sans-serif;
+
+}
 .conteiner{
-    width: 1032px;
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 header{
-    padding-top: 39px;
-    padding-bottom: 39px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     background-image: url(../img/header.webp);
     width: 1440px;
     height: 150px;
 }
+.logo-nav{
+    display: flex;
+    align-items: center;
+}
 .logo-img{
     width: 186px;
     height: 72px;
+    margin-right: 184px;
+    margin-left: 30px;
+    padding-top: 39px;
+    padding-bottom: 39px;
 }
 .header-box{
     color: var(--section1);
     font-size: 20px;
     font-weight: 300;
-    font-family: inter;
 }
-.header-box:nth-child(1){
-    color: var(--header-main);
-    font-size: 20px;
-    font-weight: 600;
-    font-family: 'Inter', sans-serif;;
+.header-list{
+    margin-right: 38px;
+    text-align: center;
+    display: flex;
+}
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
 }
 .login{
     color: var(--butt);
@@ -40,10 +57,18 @@ header{
     width: 141px;
     height: 41.694px;
 }
+.len-list{
+    display: flex;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+.len-wrap{
+    margin-right: 85px;
+}
 .len{
     color: var(--section1);
     text-align: center;
-    font-family: Hammersmith One;
+    font-family:'Hammersmith One', sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
@@ -51,9 +76,17 @@ header{
     width: 36px;
     height: 20px;
 }
+.section1-wrap{
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 200px;
+}
+.section1-list{
+    margin-left: 10px;
+    margin-right: 300px;
+}
 .section1-box{
     color: var(--section1);
-    font-family: Inter;
     font-size: 20px;
     font-weight: 400;
 }
@@ -64,11 +97,12 @@ header{
 .join{
     color: var(--butt);
     text-align: center;
-    font-family: HeadlandOne;
+    font-family: 'Headland One', serif;
     font-size: 24px;
     font-weight: 400;
     background-image: url(../img/headerua.webp);
     width: 260px;
+
 }
 .section1{
     background-image: url(../img/1section.webp);
@@ -79,17 +113,19 @@ header{
     width: 30px;
     height: 30px;
 }
+.text{
+    text-align: center;
+    
+}
 .text-wrap{
     color: var(--section24);
     text-align: justify;
-    font-family: Inter;
     font-size: 36px;
     font-weight: 400;
 }
 .text-name{
     color: var(--name);
     text-align: center;
-    font-family: Inter;
     font-size: 24px;
     font-weight: 400;
 }
@@ -100,14 +136,16 @@ header{
 .trailer{
     color: var(--butt);
     text-align: justify;
-    font-family: HeadlandOne;
+    font-family: 'Headland One', serif;
     font-size: 24px;
     font-weight: 400;
-}
-.trailer{
     background-image: url(../img/headerua.webp);
     width: 260px;
     height: 80px;
+}
+.trailer-wp{
+    text-align: center;
+    display: flex;
 }
 .section3{
     background-image: url(../img/trailer.webp);
@@ -117,14 +155,27 @@ header{
 .section5-let{
     color: var(--section4);
     text-align: justify;
-    font-family: HeadlandOne;
+    font-family: 'Headland One', serif;
     font-size: 32px;
     font-weight: 400;
+    text-align: center;
+    display: flex;
+
+}
+.section5{
+    background-image: url(../img/lastsektion.webp);
+    width: 1440px;
+    height: 704px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.section5-list{
+
 }
 .eng{
     color: var(--name);
     text-align: justify;
-    font-family: HeadlandOne;
+    font-family: 'Headland One', serif;
     font-size: 24px;
     font-weight: 400;
 }
