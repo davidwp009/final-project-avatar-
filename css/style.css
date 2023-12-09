@@ -80,6 +80,12 @@ header{
     width: 36px;
     height: 20px;
 }
+.section1-wrap{
+    text-align: center;
+    list-style: none;
+    padding-top: 180px;
+    margin-left: 70px;
+}
 /*/.section1-wrap{
     text-align: center;
     padding-top: 180px;
@@ -88,6 +94,18 @@ header{
 .section1-list{
     margin-left: 10px;
     margin-right: 300px;
+}
+.section1-list:nth-last-child(1){
+    padding-top: 67px;
+}
+.section1-ul2{
+    margin-left: 1000px;
+    margin-bottom: 350px;
+    
+
+}
+.inst{
+    padding-top: 27px;
 }
 .section1-box{
     color: var(--section1);
@@ -112,6 +130,10 @@ header{
     background-image: url(../img/1section.webp);
     width: 1440px;
     height: 740px;
+}
+.section2{
+    padding-top: 75px;
+    padding-bottom: 10px;
 }
 .mereg{
     width: 30px;
@@ -169,7 +191,6 @@ header{
     font-size: 32px;
     font-weight: 400;
     text-align: center;
-    display: flex;
 
 }
 .section5{
@@ -183,7 +204,21 @@ header{
     padding-bottom: 58px;
 }
 .section5-list{
-
+    text-align: center;
+    display: block;
+    margin-right: 150px;
+    padding-top: 96px;
+    list-style: none;
+}
+.section5-list::before{
+    background: rgba(255, 255, 255, 0.70);
+    padding-top: 24px;
+    padding-right: 10px;
+}
+.section5-wrap{
+    display: flex;
+    justify-content: space-between ;
+    flex-wrap: wrap;
 }
 .eng{
     color: var(--name);
@@ -198,8 +233,13 @@ header{
 }
 .foooter{
     background-image: url(../img/footer.webp);
-    width: 1440px;
-    height: 223px;
+    /*width: 1440px;
+    height: 223px;*/
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 
