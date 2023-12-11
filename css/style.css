@@ -274,7 +274,6 @@
        color: var(--header-main);
    }
    .footer-dots{
-       height: 1px;
        margin-right: 20px;
        margin-left: 20px;
    }
