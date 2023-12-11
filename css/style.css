@@ -115,7 +115,7 @@
    }
    .hero{
        /* cтавимо на фон та витягуємо по розміру */
-       background-image: url(../img/1section.webp);
+       background-image: url(../img/firstsection.webp);
        background-position: center;
        background-repeat: no-repeat;
        background-size: cover;
