@@ -1,4 +1,4 @@
-:root{
+/* :root{
     --header-main:#94CFFF;
     --section1: #FFF;
     --butt:#26C6EA;
@@ -115,7 +115,7 @@
    }
    .hero{
        /* cтавимо на фон та витягуємо по розміру */
-       background-image: url(../img/firstsection.webp);
+       /* background-image: url(../img/firstsection.webp);
        background-position: center;
        background-repeat: no-repeat;
        background-size: cover;
@@ -291,7 +291,7 @@
        font-weight: 400;
        margin-top: -30px;
        text-align: center;
-   }
+   } */
 
 
-
+ 
